@@ -10,7 +10,7 @@ Follow these simple steps to run FileMagnet locally and start using this versati
 1. **Clone the Repository**
     - Clone the FileMagnet repository to your local machine using Git:
     ```shell
-    git clone https://github.com/your-username/filemagnet.git
+    git clone https://github.com/your-username/FileMagnet-File-Converter.git
     ```
 
 2. **Install Dependencies**
