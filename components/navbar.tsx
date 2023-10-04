@@ -15,7 +15,6 @@ import {
     SheetFooter
 } from "@/components/ui/sheet"
 
-
 const NavBar = () => {
     return ( 
     <nav className="w-full backdrop-blur-md bg-white bg-opacity-30 z-50 fixed h-24 flex justify-between items-center py-10 px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
@@ -29,17 +28,20 @@ const NavBar = () => {
     />
     </Link>
     <div className="p-6 mt-2 ml-16 gap-4 md:gap-4 lg:gap-6 hidden md:flex items-start justify-center">
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
         <Link href="/">Home</Link>
         </Button>
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
         <Link href="/about">About</Link>
         </Button>
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
+        <Link href="/setup">Setup Locally</Link>
+        </Button>
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
         <Link href="/contact">Contact Us</Link>
         </Button>
     </div>
-    <Link href="https://www.google.com" target="_blank">
+    <Link href="" target="_blank">
     <Button variant={"default"} size={"default"}
     className="rounded-md bg-lime-400 hover:bg-red-500 text-black w-fit gap-2 items-center hidden md:flex">
     <span> Github Repo </span>
