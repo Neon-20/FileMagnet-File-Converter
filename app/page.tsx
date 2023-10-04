@@ -1,7 +1,6 @@
 // import DropZone from "@/components/dropzone"
 
 import Code from "@/components/code";
-import Tweet from "@/components/tweet";
 import Image from "next/image";
 
 const Home = () => {
