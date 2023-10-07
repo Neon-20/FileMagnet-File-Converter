@@ -14,10 +14,11 @@ import {
     SheetTrigger,
     SheetFooter
 } from "@/components/ui/sheet"
+import { ModeToggle } from "@/components/mode-toggle";
 
 const NavBar = () => {
     return ( 
-    <nav className="w-full backdrop-blur-md bg-white bg-opacity-30 z-50 fixed h-24 flex justify-between items-center py-10 px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
+    <nav className="w-full backdrop-blur-lg bg-white bg-opacity-30 z-50 fixed h-16 flex justify-between items-center py-10 px-4 md:px-8 lg:px-12 xl:px-16 2xl:px-24">
     <Link href="https://pranavrajveer.com/" target="_blank">
     <Image 
     alt="logo"
@@ -28,22 +29,22 @@ const NavBar = () => {
     />
     </Link>
     <div className="p-6 mt-2 ml-16 gap-4 md:gap-4 lg:gap-6 hidden md:flex items-start justify-center">
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300 hover:text-black">
         <Link href="/">Home</Link>
         </Button>
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300 hover:text-black">
         <Link href="https://github.com/Neon-20/FileMagnet-File-Converter#filemagnet" target="_blank">About</Link>
         </Button>
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300 hover:text-black">
         <Link href="/setup">Setup Locally</Link>
         </Button>
-        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
-        <Link href={"https://tally.so/r/woRAPV"} target="_blank">Contact Us</Link>
+        <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300 hover:text-black">
+        <Link href={"https://tally.so/r/woRAPV"} target="_blank">Contact Me</Link>
         </Button>
     </div>
     <Link href="https://github.com/Neon-20/FileMagnet-File-Converter" target="_blank">
     <Button variant={"default"} size={"default"}
-    className="rounded-md bg-lime-400 hover:bg-red-500 text-black w-fit gap-2 items-center hidden md:flex">
+    className="rounded-md bg-lime-400 hover:bg-sky-400 text-black w-fit gap-2 items-center hidden md:flex">
     <span> Github Repo </span>
     <span className="text-xl">
         <BsGithub/>
@@ -73,7 +74,7 @@ const NavBar = () => {
         </Link>
         <Link href={"https://tally.so/r/woRAPV"} target="_blank">
         <Button variant={"link"} className="font-semibold text-md w-full">
-        Contact Us
+        Contact Me
         </Button>
         </Link>
         </div>
