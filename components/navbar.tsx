@@ -32,13 +32,13 @@ const NavBar = () => {
         <Link href="/">Home</Link>
         </Button>
         <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
-        <Link href="/about">About</Link>
+        <Link href="https://github.com/Neon-20/FileMagnet-File-Converter#filemagnet" target="_blank">About</Link>
         </Button>
         <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
         <Link href="/setup">Setup Locally</Link>
         </Button>
         <Button variant={"ghost"} className="font-semibold text-md cursor-pointer hover:bg-slate-300">
-        <Link href="/contact">Contact Us</Link>
+        <Link href={"https://tally.so/r/woRAPV"} target="_blank">Contact Us</Link>
         </Button>
     </div>
     <Link href="https://github.com/Neon-20/FileMagnet-File-Converter" target="_blank">
@@ -66,12 +66,12 @@ const NavBar = () => {
         Home
         </Button>
         </Link>
-        <Link href={"/about"}>
+        <Link href={"https://github.com/Neon-20/FileMagnet-File-Converter#filemagnet"} target="_blank">
         <Button variant={"link"} className="font-semibold text-md w-full">
         About
         </Button>
         </Link>
-        <Link href={"/contact"}>
+        <Link href={"https://tally.so/r/woRAPV"} target="_blank">
         <Button variant={"link"} className="font-semibold text-md w-full">
         Contact Us
         </Button>

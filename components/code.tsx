@@ -58,7 +58,7 @@ export default function Code(){
             <p className="text-center text-black text-lg font-medium">Made with ❤️ by Pranav</p>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
                 <li>
-                    <a href="/about" className="mr-4 hover:underline md:mr-6 ">About</a>
+                    <a href="https://github.com/Neon-20/FileMagnet-File-Converter#filemagnet" target="_blank" className="mr-4 hover:underline md:mr-6 ">About</a>
                 </li>
                 <li>
                     <a href="/contact" className="mr-4 hover:underline md:mr-6">Contact</a>
