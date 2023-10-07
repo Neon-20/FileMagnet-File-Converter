@@ -124,6 +124,8 @@ data.forEach((file:any) => {
 })
 setActions(temp);
 };
+
+
 const handleHover = (): void => setIsHover(true); 
 const handleExitHover = (): void => setIsHover(false);
 
