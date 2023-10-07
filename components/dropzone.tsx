@@ -1,32 +1,20 @@
 "use client";
-import { FiUploadCloud } from 'react-icons/fi';
-import { LuFileSymlink } from 'react-icons/lu';
-import { MdClose } from 'react-icons/md';
+// import { FiUploadCloud } from 'react-icons/fi';
+// import { LuFileSymlink } from 'react-icons/lu';
 import ReactDropZone from 'react-dropzone';
-import bytesToSize from '@/utils/bytes-to-size';
-// import fileToIcon from '@/utils/file-to-icon';
-import { useState, useEffect, useRef } from 'react';
+import { useState, useRef } from 'react';
 import { useToast } from '@/components/ui/use-toast';
-import compressFileName from '@/utils/compress-file-name';
-import { Skeleton } from '@/components/ui/skeleton';
-import convertFile from '@/utils/convert';
-import { ImSpinner3 } from 'react-icons/im';
-import { MdDone } from 'react-icons/md';
-import { Badge } from '@/components/ui/badge';
-import { HiOutlineDownload } from 'react-icons/hi';
-import { BiError } from 'react-icons/bi';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import {
-Select,
-SelectContent,
-SelectItem,
-SelectTrigger,
-SelectValue,
-} from './ui/select';
-import { Button } from './ui/button';
-import loadFfmpeg from '@/utils/load-ffmpeg';
+// import {
+// Select,
+// SelectContent,
+// SelectItem,
+// SelectTrigger,
+// SelectValue,
+// } from '@/components/ui/select';
+// import { Button } from '@/components/ui/button';
+// import loadFfmpeg from '@/utils/load-ffmpeg';
 import type { Actions } from '@/types';
-import { FFmpeg } from '@ffmpeg/ffmpeg';
+// import { FFmpeg } from '@ffmpeg/ffmpeg';
 
 const extensions = {
     image: [
@@ -165,7 +153,7 @@ return (
         {isHover ? (
         <>
         <div className="justify-center flex text-6xl">
-        <LuFileSymlink/>
+        {/* <LuFileSymlink/> */}
         </div>
         <h3 className="text-center font-medium text-2xl">
         Yes,Right Here..
@@ -174,7 +162,7 @@ return (
     ):(
         <>
         <div className="justify-center flex text-6xl">
-        <FiUploadCloud />
+        {/* <FiUploadCloud /> */}
         </div>
         <h3>
         Click, or drop your files here

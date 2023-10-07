@@ -2,52 +2,52 @@ import Image from "next/image";
 
 export default function Code(){
     return(
-      <div>
-      <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
-      <div className="flex justify-between items-center">
-      <div className="flex space-x-2 text-red-500">
-      <div className="w-3 h-3 rounded-full bg-red-500" />
-      <div className="w-3 h-3 rounded-full bg-yellow-500" />
-      <div className="w-3 h-3 rounded-full bg-green-500" />
-      </div>
-      <p className="text-sm">bash</p>
-      </div>
-      <div className="mt-4">
-      <p className="text-white">Clone the repo</p>
-      <p className="text-green-400">$ https://github.com/your-username/FileMagnet-File-Converter.git</p>
-      </div>
-      </div>
-      <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
-      <div className="flex justify-between items-center">
-      <div className="flex space-x-2 text-red-500">
-      <div className="w-3 h-3 rounded-full bg-red-500" />
-      <div className="w-3 h-3 rounded-full bg-yellow-500" />
-      <div className="w-3 h-3 rounded-full bg-green-500" />
-      </div>
-      <p className="text-sm">bash</p>
-      </div>
-      <div className="mt-4">
-      <p className="text-white">Install the packages</p>
-      <p className="text-green-400">$ npm i</p> <p>or</p>
-      <p className="text-green-400">$ pnpm i</p>
-      </div>
-      </div>
-      <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
-      <div className="flex justify-between items-center">
-      <div className="flex space-x-2 text-red-500">
-      <div className="w-3 h-3 rounded-full bg-red-500" />
-      <div className="w-3 h-3 rounded-full bg-yellow-500" />
-      <div className="w-3 h-3 rounded-full bg-green-500" />
-      </div>
-      <p className="text-sm">bash</p>
-      </div>
-      <div className="mt-4">
-      <p className="text-white">Run the Application</p>
-      <p className="text-green-400">$ npm run dev</p> <p>or</p>
-      <p className="text-green-400">$ pnpm dev</p>
-      </div>🎉
-      </div>
-      <p className="items-center space-y-6 justify-center space-x-20 p-6 text-red-500 text-2xl font-medium mt-10 flex">Boom, your Project is setup successfully and you are ready to launch 🎉</p>
+    <div>
+    <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
+    <div className="flex justify-between items-center">
+    <div className="flex space-x-2 text-red-500">
+    <div className="w-3 h-3 rounded-full bg-red-500" />
+    <div className="w-3 h-3 rounded-full bg-yellow-500" />
+    <div className="w-3 h-3 rounded-full bg-green-500" />
+    </div>
+    <p className="text-sm">bash</p>
+    </div>
+    <div className="mt-4">
+    <p className="text-white">Clone the repo</p>
+    <p className="text-green-400">$ https://github.com/your-username/FileMagnet-File-Converter.git</p>
+    </div>
+    </div>
+    <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
+    <div className="flex justify-between items-center">
+    <div className="flex space-x-2 text-red-500">
+    <div className="w-3 h-3 rounded-full bg-red-500" />
+    <div className="w-3 h-3 rounded-full bg-yellow-500" />
+    <div className="w-3 h-3 rounded-full bg-green-500" />
+    </div>
+    <p className="text-sm">bash</p>
+    </div>
+    <div className="mt-4">
+    <p className="text-white">Install the packages</p>
+    <p className="text-green-400">$ npm i</p> <p>or</p>
+    <p className="text-green-400">$ pnpm i</p>
+    </div>
+    </div>
+    <div className="bg-black text-white p-6 rounded-lg w-full max-w-lg font-mono items-center justify-center ml-52 space-y-4 mt-16">
+    <div className="flex justify-between items-center">
+    <div className="flex space-x-2 text-red-500">
+    <div className="w-3 h-3 rounded-full bg-red-500" />
+    <div className="w-3 h-3 rounded-full bg-yellow-500" />
+    <div className="w-3 h-3 rounded-full bg-green-500" />
+    </div>
+    <p className="text-sm">bash</p>
+    </div>
+    <div className="mt-4">
+    <p className="text-white">Run the Application</p>
+    <p className="text-green-400">$ npm run dev</p> <p>or</p>
+    <p className="text-green-400">$ pnpm dev</p>
+    </div>🎉
+    </div>
+    <p className="items-center space-y-6 justify-center space-x-20 p-6 text-red-500 text-2xl font-medium mt-10 flex">Boom, your Project is setup successfully and you are ready to launch 🎉</p>
 <footer className=" bg-white rounded-lg mt-20 dark:bg-gray-900 m-4 w-full">
     <div className="w-full max-w-screen-xl mx-auto p-4 md:py-8">
         <div className="sm:flex sm:items-center sm:justify-between">
