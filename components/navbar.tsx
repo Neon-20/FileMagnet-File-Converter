@@ -41,7 +41,7 @@ const NavBar = () => {
         <Link href="/contact">Contact Us</Link>
         </Button>
     </div>
-    <Link href="" target="_blank">
+    <Link href="https://github.com/Neon-20/FileMagnet-File-Converter" target="_blank">
     <Button variant={"default"} size={"default"}
     className="rounded-md bg-lime-400 hover:bg-red-500 text-black w-fit gap-2 items-center hidden md:flex">
     <span> Github Repo </span>
