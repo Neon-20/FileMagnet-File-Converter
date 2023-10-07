@@ -4,7 +4,7 @@ import { LuFileSymlink } from 'react-icons/lu';
 import { MdClose } from 'react-icons/md';
 import ReactDropZone from 'react-dropzone';
 import bytesToSize from '@/utils/bytes-to-size';
-import fileToIcon from '@/utils/file-to-icon';
+// import fileToIcon from '@/utils/file-to-icon';
 import { useState, useEffect, useRef } from 'react';
 import { useToast } from '@/components/ui/use-toast';
 import compressFileName from '@/utils/compress-file-name';
